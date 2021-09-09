@@ -22,11 +22,11 @@ void main(void)
 	printf("********please enter your destination in x and y coordinates********\nyour x-coordinante:");
 	scanf("%d",&(destinationPoint.x_axis));
 	printf("your y-coordinante:");
-    scanf("%d",&(destinationPoint.y_axis));
+        scanf("%d",&(destinationPoint.y_axis));
 	
 
 	numberOfTrips= (u8 *)malloc(sizeof(u8));
-    printf("\nplease enter number of trips for today:");
+        printf("\nplease enter number of trips for today:");
 	scanf("%d",numberOfTrips);
 
 	
